@@ -22,4 +22,8 @@ public class CheckInCheckOut extends AppCompatActivity {
         startActivity(new Intent(CheckInCheckOut.this, Attendance.class));
     }
 
+    public void logout(View View) {
+        startActivity(new Intent(CheckInCheckOut.this, LoginActivity.class));
+    }
+
 }
