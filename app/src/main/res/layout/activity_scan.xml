@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Scan">
+    tools:context=".Scan"
+    android:background="@drawable/gradient" >
 
     <TextView
         android:id="@+id/textView2"
@@ -16,5 +17,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@android:color/white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
